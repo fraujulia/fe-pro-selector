@@ -1,8 +1,8 @@
 function selector(obj, path) {
   let currentObj = obj;
-  path.forEach((key) => {
-    if(currentObj[key]){
-      currentObj = currentObj[key];
+  path.forEach((item) => {
+    if(currentObj[item]){
+      currentObj = currentObj[item];
     }
   });
   return currentObj;
