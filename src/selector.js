@@ -3,6 +3,8 @@ function selector(obj, path) {
   path.forEach((item) => {
     if(currentObj[item]){
       currentObj = currentObj[item];
+    } else {
+      currentObj = '';
     }
   });
   return currentObj;
