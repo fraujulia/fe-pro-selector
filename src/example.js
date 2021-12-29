@@ -1,4 +1,4 @@
-const obj = {
+const object = {
     test: {
         myField: {
             'value string': 'result',
@@ -6,5 +6,5 @@ const obj = {
     },
 };
 
-console.log(selector(obj, ['test', 'myField', 'value string'])); // => 'result'
-console.log(selector(obj, ['test', 'notExistField', 'value string'])); // => ''
+console.log(selector(object, ['test', 'myField', 'value string'])); // => 'result'
+console.log(selector(object, ['test', 'notExistField', 'value string'])); // => ''
