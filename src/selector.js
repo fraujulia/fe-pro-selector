@@ -1,5 +1,5 @@
 function selector(obj, path) {
-  let currentObj = obj;
+  let currentObj = object;
   path.forEach((item) => {
     if(currentObj[item]){
       currentObj = currentObj[item];
